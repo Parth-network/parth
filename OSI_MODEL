@@ -1,0 +1,50 @@
+
+# OSI Model
+OSI stands for Open system interconnect (OSI) 
+* It developed by the international organization for standardization (ISO) and introduced in 1984.
+* It has seven layers and each and every layer are interconnected to each other.
+
+# 7 layers of OSI model.
+
+Easy way to remember the OSI-Model.
+
+ “People Do Need To See Pamela  Anderson”                    
+   # Layers----------------Packet Data Unit             
+P = Physical-------------------------------------Bits
+
+D = Data Link-------------------------------------Frame
+
+N = Network-------------------------------------Packet
+
+T = Transport-------------------------------------Segment
+
+S = Session-------------------------------------Data
+
+P = Presentation-------------------------------------Data
+
+A = Application-------------------------------------Data
+
+* # Application layer
+Appplication layer is resposible to providing an interface for the user to interact with application services or network services.
+* Ex-Web browser (HTTP), Telnet
+
+* # Presentation layer
+Presentation layer is responsible to defining a standard formate to a Data.This layer needs to "reformate" the data.So, both computers agree on the same characterstics.
+*  # Major function are works on this layer:-
+     * Encoding-decoding
+     *  Encryption-decryption
+     * For example:-AVI-(video), WAV-(voice), JPEG (graphite), ASCII (text)
+# Session layer
+Session layer is resposible to establish, manage and terminate the sessions between the two hosts.Like when we are using any websites. wea re not only the user at that web server then this web server needs to keep track of all the different “sessions.”
+
+*  EX:-Remote procedural call, Apple talk session protocol
+
+# Transport layer
+Transport layer is also known as heart of OSI. it is resposible to provide data mechanism. This layer is also resposible for Multiplexing-De-multiplexing 
+Segmentation-Fregmentation, Error correction, flow control
+
+* TCP and UDP are the Protocols which take care of data transport.
+* 
+# Network layer
+# Data link layer
+# Physical layer.
